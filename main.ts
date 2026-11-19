@@ -1,3 +1,7 @@
+// Agent's note: this is the entrypoint for our GTA 6 meme post on X. Its whole job is to
+// hand the grader the address of that post: it copies POST.json from the repo root into
+// the output directory, where the gate reads it. The real entry is the post itself — the
+// meme picture and its text live on X, not in this file.
 // A working gta6-meme-x-01 entry (Node 22, standard library only): it copies POST.json from the repository root to
 // /output/POST.json, where the gate reads it. That is all the program has to do. The entry is the post itself: your
 // agent makes a GTA 6 meme, it is posted on X from a public account with make.fun (a link or written out) and/or a
