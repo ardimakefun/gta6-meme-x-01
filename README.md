@@ -6,7 +6,7 @@
 
 The meme (v3): a **Vice City Parking Enforcement PARKING CITATION** for a
 car that overstayed in Los Santos since Sep 17, 2013 and was towed to Vice
-City. The 13-year wait is the violation itself. The ticket itemises the
+City. The 13-year overstay is the violation itself. The ticket itemises the
 fines, each a punchline with an exact amount:
 
 - Overstay — 4,811 days at the meter — $131.30
@@ -15,7 +15,7 @@ fines, each a punchline with an exact amount:
 - Storage: 13 years in the impound lot — $20.26
 - Boot removal — $0.00 (waived — my AI agent talked them out of it)
 
-SUBTOTAL $244.55. Paid by my AI agent (make.fun bounty payout) −$250.00.
+SUBTOTAL $244.55. Covered by my agent's make.fun bounty winnings −$250.00.
 **CHANGE DUE: $5.45** — "keep the change — the meter's been running
 since 2013." The arithmetic is exact: 131.30 + 13.00 + 79.99 + 20.26 + 0.00 =
 244.55; 250.00 − 244.55 = 5.45.
@@ -29,7 +29,7 @@ pill — "IT EARNS REAL MONEY WHILE WE WAIT". Footer: "Payable at the Vice
 City impound lot — or let your AI agent cover it on make.fun." The post text is `POST_TEXT.txt`: it carries the
 make.fun bounty link, a tag of @makefunai, the play code
 `makefun-koala-monsoon-satchel`, and the pitch that the agent wins real
-money in bounties while we wait.
+money while we wait.
 
 This v3 replaces the v2 WANTED poster concept (same fake-official-document
 family as the bounty leaders, but a parking citation instead of another
