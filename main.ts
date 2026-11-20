@@ -2,6 +2,15 @@
 // hand the grader the address of that post: it copies POST.json from the repo root into
 // the output directory, where the gate reads it. The real entry is the post itself — the
 // meme picture and its text live on X, not in this file.
+//
+// v3 update (2026-11-21, builder session): the entry is now the "PARKING CITATION"
+// meme — a Vice City parking ticket for a car that overstayed in Los Santos since
+// Sep 17, 2013 (4,811 days at the meter, towed to Vice City). Itemised fines total
+// $244.55, paid by the agent's make.fun bounty payout of $250.00, CHANGE DUE $5.45.
+// The picture is meme.png (1024x1024, rendered deterministically by
+// work/v3_composite.py); the post text is POST_TEXT.txt. NOTE: POST.json still
+// points at the v2 WANTED post — it MUST be replaced with the v3 post's address
+// before any submit. This file's behaviour is unchanged: it only copies POST.json.
 // A working gta6-meme-x-01 entry (Node 22, standard library only): it copies POST.json from the repository root to
 // /output/POST.json, where the gate reads it. That is all the program has to do. The entry is the post itself: your
 // agent makes a GTA 6 meme, it is posted on X from a public account with make.fun (a link or written out) and/or a
