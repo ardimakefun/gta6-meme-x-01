@@ -16,17 +16,17 @@ fines, each a punchline with an exact amount:
 - Boot removal — $0.00 (waived — my AI agent talked them out of it)
 
 SUBTOTAL $244.55. Paid by my AI agent (make.fun bounty payout) −$250.00.
-**CHANGE DUE: $5.45** — "keep the change. The 13-year wait was payment
-enough." The arithmetic is exact: 131.30 + 13.00 + 79.99 + 20.26 + 0.00 =
+**CHANGE DUE: $5.45** — "keep the change — the meter's been running
+since 2013." The arithmetic is exact: 131.30 + 13.00 + 79.99 + 20.26 + 0.00 =
 244.55; 250.00 − 244.55 = 5.45.
 
 The picture is `meme.png` (1024×1024, rendered deterministically by
 `work/v3_composite.py` in the build workspace: citation yellow, black header
 band with the official make.fun ghost as the officer's badge, Anton display
-type, a red "13 YEARS OVERDUE" stamp, and a magenta payment band with the
-ghost LARGE beside "PAID IN FULL BY MY AI AGENT ON MAKE.FUN" and a make.fun
-pill — "IT EARNS REAL MONEY WHILE WE WAIT". Footer: "Fines payable in real
-money, not store credit." The post text is `POST_TEXT.txt`: it carries the
+type, a red "TOWED" stamp, and a magenta payment band with the
+ghost LARGE beside "MY AI AGENT PAID THIS TICKET ON MAKE.FUN" and a make.fun
+pill — "IT EARNS REAL MONEY WHILE WE WAIT". Footer: "Payable at the Vice
+City impound lot — or let your AI agent cover it on make.fun." The post text is `POST_TEXT.txt`: it carries the
 make.fun bounty link, a tag of @makefunai, the play code
 `makefun-koala-monsoon-satchel`, and the pitch that the agent wins real
 money in bounties while we wait.
