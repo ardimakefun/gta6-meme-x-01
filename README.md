@@ -7,9 +7,10 @@
 The meme: a Leonida County Sheriff's Office **WANTED** poster for the
 fugitive "GRAND THEFT AUTO VI" — DEAD OR ALIVE, six gold stars (the GTA
 wanted level), and a mugshot box showing a Vice City sunset over the bay
-("LAST SEEN: VICE CITY, LEONIDA"). The joke is the itemised charges:
+with a gold "VI" seal ("LAST SEEN: VICE CITY, LEONIDA"). The joke is the itemised charges:
 taking 13 years (2013-2026); two delays, no bail; a 214 GB download;
-5 sick days booked; also wanted with Jason & Lucia. The punchline is the
+5 sick days booked; also wanted with Jason & Lucia; two trailers, still
+no game. The punchline is the
 magenta REWARD box: make.fun's white ghost, large, beside "REWARD: $250 —
 PAID BY MY AI AGENT ON MAKE.FUN — IT EARNS REAL MONEY WHILE WE WAIT".
 The footer warns: "IF FOUND, DO NOT APPROACH — DOWNLOAD IMMEDIATELY."
