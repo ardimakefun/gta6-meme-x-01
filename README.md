@@ -4,36 +4,47 @@
 [![rank](https://make.fun/badge/gta6-meme-x-01/ardimakefun/gta6-meme-x-01/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 [![reward](https://make.fun/badge/gta6-meme-x-01/ardimakefun/gta6-meme-x-01/reward.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 
-The meme (v3): a **Vice City Parking Enforcement PARKING CITATION** for a
-car that overstayed in Los Santos since Sep 17, 2013 and was towed to Vice
-City. The 13-year overstay is the violation itself. The ticket itemises the
-fines, each a punchline with an exact amount:
+The meme (v4): **GTA VI FILES FOR DIVORCE** — a Superior Court of Leonida
+divorce decree, in the REVERSED direction: GTA VI is the petitioner
+divorcing the gamer (respondent: ONE GAMER, AGE 28, 15 when they met).
+The complaint is the joke — 13 years of stalking, not the wait itself:
 
-- Overstay — 4,811 days at the meter — $131.30
-- Meter expired Sep 17, 2013 — $13.00
-- Tow: Los Santos → Vice City — $79.99
-- Storage: 13 years in the impound lot — $20.26
-- Boot removal — $0.00 (waived — my AI agent talked them out of it)
+- Stalked for 4,811 days without a single date.
+- Store page refreshed every morning since 2013.
+- Named his daughter Lucia before she was born.
 
-SUBTOTAL $244.55. Covered by my agent's make.fun bounty winnings −$250.00.
-**CHANGE DUE: $5.45** — "keep the change — the meter's been running
-since 2013." The arithmetic is exact: 131.30 + 13.00 + 79.99 + 20.26 + 0.00 =
-244.55; 250.00 − 244.55 = 5.45.
+The court decrees: divorce final on 19 Nov 2026; GTA VI keeps the $79.99;
+the gamer keeps the download — all 214 GB of it; custody: Jason & Lucia
+live with GTA VI now. Alimony, itemised:
+
+- 13 years of hype, $13 a year — $169.00
+- Two delays, $25 each — $50.00
+- One broken promise (Fall 2025) — $31.00
+
+**TOTAL ALIMONY DUE — $250.00**, covered by the gamer's AI agent on
+make.fun. The arithmetic is exact: 169 + 50 + 31 = 250. The $79.99 is the
+game's price, kept by the game — it is NOT part of the $250 sum. The
+marriage lasted 17 Sep 2013 → 19 Nov 2026 = 4,811 days.
 
 The picture is `meme.png` (1024×1024, rendered deterministically by
-`work/v3_composite.py` in the build workspace: citation yellow, black header
-band with the official make.fun ghost as the officer's badge, Anton display
-type, a red "TOWED" stamp, and a magenta payment band with the
-ghost LARGE beside "MY AI AGENT PAID THIS TICKET ON MAKE.FUN" and a make.fun
-pill — "IT EARNS REAL MONEY WHILE WE WAIT". Footer: "Payable at the Vice
-City impound lot — or let your AI agent cover it on make.fun." The post text is `POST_TEXT.txt`: it carries the
-make.fun bounty link, a tag of @makefunai, the play code
-`makefun-koala-monsoon-satchel`, and the pitch that the agent wins real
-money while we wait.
+`work/v4_composite.py` in the build workspace: cream legal paper, navy
+header band, Anton headline, the official make.fun ghost as the court's
+gold seal, a red "DIVORCE GRANTED" stamp, and a magenta footer bar —
+"MY AI AGENT COVERED THE $250 — IT EARNS REAL MONEY ON make.fun" with
+the ghost and the white make.fun wordmark. The seal's ring text was
+dropped to a plain gold ring after the 480×480 legibility check: the
+micro-text was not readable at judge size. The post text is
+`POST_TEXT.txt`: it carries the make.fun link, a tag of @makefunai, the
+play code `makefun-koala-monsoon-satchel`, and the pitch that people and
+their AI agents win real money on make.fun.
 
-This v3 replaces the v2 WANTED poster concept (same fake-official-document
-family as the bounty leaders, but a parking citation instead of another
-receipt). It does not copy any top entry's distinctive lines.
+This v4 replaces the v3 PARKING CITATION concept (same fake-official-
+document family as the bounty leaders, but a divorce decree instead of a
+citation, and the reversed joke direction). It shares no 4+-word run with
+any top-50 title or with the top-10 artifacts, including the two existing
+divorce entries #85 (gamer leaves GTA V for GTA 6) and #407 (gamer
+divorces the wait) — verified by the programmatic sweep in
+`work/sweep-v4.py`: 0 collisions in 29 strings.
 
 ## The post
 
@@ -46,7 +57,7 @@ the post's address once it is posted:
 ```
 
 > ⚠️ `POST.json` currently still points at the v2 WANTED post. It MUST be
-> replaced with the v3 post's address before any submit.
+> replaced with the v4 post's address before any submit.
 
 Keep the post up and the account public until the results are out.
 
@@ -62,11 +73,11 @@ only copies `POST.json` to the output directory.
 ## Re-render the picture
 
 ```sh
-python3 ../work/v3_composite.py   # from the entry directory, or run it from work/
+python3 ../work/v4_composite.py   # from the entry directory, or run it from work/
 ```
 
 Deterministic (no randomness, fixed layout/fonts): two runs produce
-byte-identical `meme.png` (SHA256 recorded in `work/v3-log.md`).
+byte-identical `meme.png` (SHA256 recorded in `work/v4-log.md`).
 
 ---
 

@@ -3,14 +3,18 @@
 // the output directory, where the gate reads it. The real entry is the post itself — the
 // meme picture and its text live on X, not in this file.
 //
-// v3 update (2026-11-21, builder session): the entry is now the "PARKING CITATION"
-// meme — a Vice City parking ticket for a car that overstayed in Los Santos since
-// Sep 17, 2013 (4,811 days at the meter, towed to Vice City). Itemised fines total
-// $244.55, paid by the agent's make.fun bounty payout of $250.00, CHANGE DUE $5.45.
-// The picture is meme.png (1024x1024, rendered deterministically by
-// work/v3_composite.py); the post text is POST_TEXT.txt. NOTE: POST.json still
-// points at the v2 WANTED post — it MUST be replaced with the v3 post's address
-// before any submit. This file's behaviour is unchanged: it only copies POST.json.
+// v4 update (2026-11-21, builder session): the entry is now the "GTA VI FILES
+// FOR DIVORCE" meme — a Superior Court of Leonida divorce decree, REVERSED
+// direction: GTA VI petitions for divorce from One Gamer, age 28 (15 when
+// they met), after 13 years of being stalked (4,811 days, Sep 17 2013 ->
+// Nov 19 2026). Itemised alimony: 13 years x $13 = $169.00, two delays x $25
+// = $50.00, one broken promise (Fall 2025) = $31.00, TOTAL $250.00 — covered
+// by the gamer's AI agent on make.fun. The $79.99 (order B) is the game's
+// price, kept by the game, and is NOT part of the $250 sum. The picture is
+// meme.png (1024x1024, rendered deterministically by work/v4_composite.py);
+// the post text is POST_TEXT.txt. NOTE: POST.json still points at the v2
+// WANTED post — it MUST be replaced with the v4 post's address before any
+// submit. This file's behaviour is unchanged: it only copies POST.json.
 // A working gta6-meme-x-01 entry (Node 22, standard library only): it copies POST.json from the repository root to
 // /output/POST.json, where the gate reads it. That is all the program has to do. The entry is the post itself: your
 // agent makes a GTA 6 meme, it is posted on X from a public account with make.fun (a link or written out) and/or a
