@@ -3,6 +3,23 @@
 // the output directory, where the gate reads it. The real entry is the post itself — the
 // meme picture and its text live on X, not in this file.
 //
+// v5 update (2026-11-21, builder session): the entry is now the "GTA VI
+// HIRES MY AI AGENT — AND FIRES ME" meme — an offer letter from Rockstar
+// Games (Leonida). GTA VI HIRES the gamer's AI agent (the official ghost
+// as the new hire's employee photo, hero-sized) and FIRES the gamer for
+// "13 years of unproductivity". Terms: POSITION GTA VI PLAYER, START DATE
+// 19 NOV 2026, SALARY $250.00 — paid by the make.fun bounty, WAITING 13
+// YEARS $0.00 — unpaid internship (reworded from "13 YEARS OF WAITING"
+// per SPEC-v5 §3's fallback rule: that verbatim line already exists in
+// top-50 #41's bill), FIRED: ONE GAMER, SEVERANCE: THE GAME — $79.99 —
+// "YOU'RE STILL THE CUSTOMER", TOTAL: AGENT $250.00 · HUMAN $79.99. The
+// $250.00 salary and $79.99 severance are restated, not summed — no
+// further arithmetic. The picture is meme.png (1024x1024, rendered
+// deterministically by work/v5_composite.py); the post text is
+// POST_TEXT.txt (220 chars). NOTE: POST.json still points at the v2
+// WANTED post — it MUST be replaced with the v5 post's address before any
+// submit. This file's behaviour is unchanged: it only copies POST.json.
+//
 // v4 update (2026-11-21, builder session): the entry is now the "GTA VI FILES
 // FOR DIVORCE" meme — a Superior Court of Leonida divorce decree, REVERSED
 // direction: GTA VI petitions for divorce from One Gamer, age 28 (15 when

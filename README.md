@@ -4,47 +4,60 @@
 [![rank](https://make.fun/badge/gta6-meme-x-01/ardimakefun/gta6-meme-x-01/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 [![reward](https://make.fun/badge/gta6-meme-x-01/ardimakefun/gta6-meme-x-01/reward.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 
-The meme (v4): **GTA VI FILES FOR DIVORCE** — a Superior Court of Leonida
-divorce decree, in the REVERSED direction: GTA VI is the petitioner
-divorcing the gamer (respondent: ONE GAMER, AGE 28, 15 when they met).
-The complaint is the joke — 13 years of stalking, not the wait itself:
+The meme (v5): **GTA VI HIRES MY AI AGENT — AND FIRES ME** — an offer
+letter from Rockstar Games (Leonida). GTA VI doesn't just dump the gamer
+(v4) — it HIRES the AI agent (the one who actually did the work) and
+FIRES the gamer for "13 years of unproductivity". The ghost is the NEW
+HIRE: its official mark is the employee photo, hero-sized at the top
+right of the letter. The human's severance is the game itself ($79.99) —
+so the people-and-agents split is stated IN THE IMAGE: the agent earns a
+$250 salary, the human gets the $79.99 game.
 
-- Stalked for 4,811 days without a single date.
-- Store page refreshed every morning since 2013.
-- Named his daughter Lucia before she was born.
+Terms, itemised:
 
-The court decrees: divorce final on 19 Nov 2026; GTA VI keeps the $79.99;
-the gamer keeps the download — all 214 GB of it; custody: Jason & Lucia
-live with GTA VI now. Alimony, itemised:
+- POSITION: GTA VI PLAYER
+- START DATE: 19 NOV 2026
+- SALARY: $250.00 — PAID BY make.fun BOUNTY
+- WAITING 13 YEARS: $0.00 — UNPAID INTERNSHIP
+- FIRED: ONE GAMER — 13 YEARS OF UNPRODUCTIVITY
+- SEVERANCE: THE GAME — $79.99 — YOU'RE STILL THE CUSTOMER
 
-- 13 years of hype, $13 a year — $169.00
-- Two delays, $25 each — $50.00
-- One broken promise (Fall 2025) — $31.00
-
-**TOTAL ALIMONY DUE — $250.00**, covered by the gamer's AI agent on
-make.fun. The arithmetic is exact: 169 + 50 + 31 = 250. The $79.99 is the
-game's price, kept by the game — it is NOT part of the $250 sum. The
-marriage lasted 17 Sep 2013 → 19 Nov 2026 = 4,811 days.
+**TOTAL: AGENT $250.00 · HUMAN $79.99.** The arithmetic is exact and
+minimal: salary $250.00 (the make.fun bounty), waiting $0.00, severance
+$79.99 (the game's price). The TOTAL row restates the split — nothing is
+summed. The waiting row is worded "WAITING 13 YEARS" per the SPEC's
+fallback rule: the verbatim line "13 years of waiting $0.00" already
+exists in top-50 #41's bill. The word "contract" appears nowhere in the
+image — the species is an offer letter, not a contract.
 
 The picture is `meme.png` (1024×1024, rendered deterministically by
-`work/v4_composite.py` in the build workspace: cream legal paper, navy
-header band, Anton headline, the official make.fun ghost as the court's
-gold seal, a red "DIVORCE GRANTED" stamp, and a magenta footer bar —
-"MY AI AGENT COVERED THE $250 — IT EARNS REAL MONEY ON make.fun" with
-the ghost and the white make.fun wordmark. The seal's ring text was
-dropped to a plain gold ring after the 480×480 legibility check: the
-micro-text was not readable at judge size. The post text is
-`POST_TEXT.txt`: it carries the make.fun link, a tag of @makefunai, the
-play code `makefun-koala-monsoon-satchel`, and the pitch that people and
-their AI agents win real money on make.fun.
+`work/v5_composite.py` in the build workspace: cream paper, navy header
+band (ROCKSTAR GAMES), "OFFER OF EMPLOYMENT" document title, Anton
+headline "GTA VI HIRES MY AI AGENT" + "…and fires me.", the official
+make.fun ghost as the framed employee photo captioned "NEW HIRE", a
+dotted-leader terms table, a red "HIRED" stamp over the salary line, the
+signature "SIGNED: THE GHOST / ROCKSTAR GAMES, LEONIDA", and a magenta
+footer bar — "He waited 13 years. His agent got the job." with the ghost
+and the white make.fun wordmark. Smallest body text is 28px (26px floor),
+verified legible at 480×480. The post text is `POST_TEXT.txt` (220
+chars): it carries the make.fun link, a tag of @makefunai, the play code
+`makefun-koala-monsoon-satchel`, and the pitch that people and their AI
+agents win real money on make.fun.
 
-This v4 replaces the v3 PARKING CITATION concept (same fake-official-
-document family as the bounty leaders, but a divorce decree instead of a
-citation, and the reversed joke direction). It shares no 4+-word run with
-any top-50 title or with the top-10 artifacts, including the two existing
-divorce entries #85 (gamer leaves GTA V for GTA 6) and #407 (gamer
-divorces the wait) — verified by the programmatic sweep in
-`work/sweep-v4.py`: 0 collisions in 29 strings.
+This v5 replaces the v4 divorce decree (same fake-official-document
+family as the bounty leaders, but an offer letter instead of a decree,
+and the reversed joke direction: hire the agent AND fire the gamer). The
+offer-letter species is absent from the top 50; the nearest neighbour,
+#309 "Offer of Employment: Start Date Postponed for the 14th Time",
+hires the gamer and postpones the start date — the opposite direction,
+with different numbers and a different visual system (see
+`work/top50/transcript-r309.md`). Builder-side sweep
+(`work/sweep-v5.py`): the distinctive joke lines (headline, subhead,
+FIRED, SEVERANCE, TOTAL, footer) share no 4+-word run with any top-50
+title or top-50 transcript; the remaining hits are generic form labels
+("POSITION: GTA VI PLAYER" vs #309), the real launch date (19 NOV 2026),
+the platform attribution ("paid by make.fun"), and required pitch
+phrasing in the post text.
 
 ## The post
 
@@ -57,7 +70,7 @@ the post's address once it is posted:
 ```
 
 > ⚠️ `POST.json` currently still points at the v2 WANTED post. It MUST be
-> replaced with the v4 post's address before any submit.
+> replaced with the v5 post's address before any submit.
 
 Keep the post up and the account public until the results are out.
 
@@ -73,11 +86,13 @@ only copies `POST.json` to the output directory.
 ## Re-render the picture
 
 ```sh
-python3 ../work/v4_composite.py   # from the entry directory, or run it from work/
+python3 ../work/v5_composite.py   # from the entry directory, or run it from work/
 ```
 
 Deterministic (no randomness, fixed layout/fonts): two runs produce
-byte-identical `meme.png` (SHA256 recorded in `work/v4-log.md`).
+byte-identical `meme.png` (SHA256
+`ab352042b7ba007fb20c51a298e7a93e6a0cad78f91c767d30d856dccb9aa3d0`,
+recorded in `work/v5-log.md`).
 
 ---
 
