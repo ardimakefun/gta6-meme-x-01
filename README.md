@@ -35,7 +35,7 @@ The picture is `meme.png` (1024×1024, rendered deterministically by
 ticket with a perforated left edge — punched holes plus a dashed
 perforation line — Anton header "LEONIDA STATE LOTTERY" + magenta
 "SCRATCH & WIN", subhead "13 YEARS OF LOSING TICKETS — ONE WINNER",
-serial "TICKET No. VI-004811", a silver scratch panel with the official
+serial "TICKET No. VI-170913", a silver scratch panel with the official
 make.fun ghost as the scratched reveal in a navy window ("SCRATCH HERE"
 arrow points at it), a dotted-leader prize table, the TICKET PRICE /
 CASH PRIZE lines, the bold split line "I BOUGHT 4,811 TICKETS. MY AGENT
@@ -55,8 +55,11 @@ balls 13 / 4,811 / 214 / 5 / ghost ball $79.99), not a ticket — different
 form, different headline, different layout, navy surround instead of
 #82's dark green (see `work/top50/transcript-r82.md`). Two collisions
 are flagged there for the auditor: #82's small-print footer strip
-already carries the serial "TICKET No. VI-004811" (kept per SPEC-v6 §3,
-flagged, not silently changed) and its "TICKET BOUGHT BY — my AI agent
+already carries the serial "TICKET No. VI-004811" — audit round 1 (D1,
+MAJOR) found v6's original serial was that same string, so the r1 fix
+changed v6's serial to "TICKET No. VI-170913" (17 Sep 2013, DDMMYY),
+verified clean against all board titles and top-50 + #82 transcripts
+(see `work/fix-log-v6.md`) — and its "TICKET BOUGHT BY — my AI agent
 on make.fun" shares generic attribution 4-grams with the TICKET PRICE
 row.
 
@@ -92,8 +95,9 @@ python3 ../work/v6_composite.py   # from the entry directory, or run it from wor
 
 Deterministic (no randomness, fixed layout/fonts): two runs produce
 byte-identical `meme.png` (SHA256
-`90545c91b435fa6d2e71a8f562ed3b681690ca51728552f971f9d883e4ad6bd3`,
-recorded in `work/v6-log.md`).
+`865d7040e7e52f9d69924cb79385e37c244a6f38fc0d34b535541e0658fe4f22`,
+recorded in `work/fix-log-v6.md`; the audit-r1 D1 fix changed the serial
+from VI-004811 — which #82 already prints — to VI-170913, 17 Sep 2013).
 
 ---
 

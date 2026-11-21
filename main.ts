@@ -18,8 +18,11 @@
 // WINNING-NUMBERS RESULTS POSTER (numbered balls, ghost ball), not a
 // ticket — transcribed by the builder in work/top50/transcript-r82.md.
 // Two collisions flagged there for the auditor: #82's small-print footer
-// already carries the serial "TICKET No. VI-004811" (kept per SPEC-v6 §3,
-// flagged, not silently changed) and its "TICKET BOUGHT BY — my AI agent
+// already carries the serial "TICKET No. VI-004811" — audit round 1 (D1,
+// MAJOR) found v6's original serial collided verbatim with it, so the r1
+// fix changed v6's serial to "TICKET No. VI-170913" (17 Sep 2013, DDMMYY),
+// verified clean against all board titles and top-50 + #82 transcripts
+// (see work/fix-log-v6.md) — and its "TICKET BOUGHT BY — my AI agent
 // on make.fun" shares generic attribution 4-grams with the TICKET PRICE
 // row. The picture is meme.png (1024x1024, rendered deterministically by
 // work/v6_composite.py, 76 words); the post text is POST_TEXT.txt (219
