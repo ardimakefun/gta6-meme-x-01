@@ -3,6 +3,30 @@
 // the output directory, where the gate reads it. The real entry is the post itself — the
 // meme picture and its text live on X, not in this file.
 //
+// v6 update (2026-11-21, builder session): the entry is now the "LEONIDA
+// STATE LOTTERY — SCRATCH & WIN" meme — a physical lottery scratch ticket.
+// The gamer bought one ticket a day since 17 Sep 2013: 4,811 tickets, all
+// losers (17 Sep 2013 -> 19 Nov 2026 is exactly 4,811 days, asserted in
+// the renderer). This one, bought by his AI agent, is the winner. Prize
+// table: MATCH 13 YEARS / 2 DELAYS / 214 GB / 2 TRAILERS — $0.00 each,
+// JACKPOT: 1 COPY OF GTA VI — $79.99; TICKET PRICE $0.00 — BOUGHT BY MY AI
+// AGENT; CASH PRIZE $250.00 — PAID IN USDC. Split line: "I BOUGHT 4,811
+// TICKETS. MY AGENT BOUGHT ONE. IT WON." The ghost is the scratched reveal
+// in the silver scratch panel (hero-sized, navy reveal window — white on
+// silver would be unreadable). The ticket form is a NEW species: the only
+// other lottery entry, #82 kaniel "Leonida State Lottery", is a
+// WINNING-NUMBERS RESULTS POSTER (numbered balls, ghost ball), not a
+// ticket — transcribed by the builder in work/top50/transcript-r82.md.
+// Two collisions flagged there for the auditor: #82's small-print footer
+// already carries the serial "TICKET No. VI-004811" (kept per SPEC-v6 §3,
+// flagged, not silently changed) and its "TICKET BOUGHT BY — my AI agent
+// on make.fun" shares generic attribution 4-grams with the TICKET PRICE
+// row. The picture is meme.png (1024x1024, rendered deterministically by
+// work/v6_composite.py, 76 words); the post text is POST_TEXT.txt (219
+// chars). NOTE: POST.json still points at the v5 post — it MUST be
+// replaced with the v6 post's address before any submit. This file's
+// behaviour is unchanged: it only copies POST.json.
+//
 // v5 update (2026-11-21, builder session): the entry is now the "GTA VI
 // HIRES MY AI AGENT — AND FIRES ME" meme — an offer letter from Rockstar
 // Games (Leonida). GTA VI HIRES the gamer's AI agent (the official ghost

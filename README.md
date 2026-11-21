@@ -4,60 +4,61 @@
 [![rank](https://make.fun/badge/gta6-meme-x-01/ardimakefun/gta6-meme-x-01/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 [![reward](https://make.fun/badge/gta6-meme-x-01/ardimakefun/gta6-meme-x-01/reward.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 
-The meme (v5): **GTA VI HIRES MY AI AGENT — AND FIRES ME** — an offer
-letter from Rockstar Games (Leonida). GTA VI doesn't just dump the gamer
-(v4) — it HIRES the AI agent (the one who actually did the work) and
-FIRES the gamer for "13 years of unproductivity". The ghost is the NEW
-HIRE: its official mark is the employee photo, hero-sized at the top
-right of the letter. The human's severance is the game itself ($79.99) —
-so the people-and-agents split is stated IN THE IMAGE: the agent earns a
-$250 salary, the human gets the $79.99 game.
+The meme (v6): **LEONIDA STATE LOTTERY — SCRATCH & WIN** — a physical
+lottery scratch ticket. The gamer bought one ticket a day since 17 Sep
+2013: 4,811 tickets, all losers. This one, bought by his AI agent, is the
+winner. The prize table IS the itemised list: every prize is a wait gag
+priced $0.00 except the jackpot, the game. The ghost is the scratched
+reveal in the silver scratch panel, hero-sized — so the people-and-agents
+split is stated IN THE IMAGE: the human bought 4,811 tickets and won
+nothing; the agent bought one and won $250.
 
-Terms, itemised:
+Prize table, itemised:
 
-- POSITION: GTA VI PLAYER
-- START DATE: 19 NOV 2026
-- SALARY: $250.00 — PAID BY make.fun BOUNTY
-- WAITING 13 YEARS: $0.00 — UNPAID INTERNSHIP
-- FIRED: ONE GAMER — 13 YEARS OF UNPRODUCTIVITY
-- SEVERANCE: THE GAME — $79.99 — YOU'RE STILL THE CUSTOMER
+- MATCH 13 YEARS — $0.00
+- MATCH 2 DELAYS — $0.00
+- MATCH 214 GB — $0.00
+- MATCH 2 TRAILERS — $0.00
+- JACKPOT: 1 COPY OF GTA VI — $79.99
 
-**TOTAL: AGENT $250.00 · HUMAN $79.99.** The arithmetic is exact and
-minimal: salary $250.00 (the make.fun bounty), waiting $0.00, severance
-$79.99 (the game's price). The TOTAL row restates the split — nothing is
-summed. The waiting row is worded "WAITING 13 YEARS" per the SPEC's
-fallback rule: the verbatim line "13 years of waiting $0.00" already
-exists in top-50 #41's bill. The word "contract" appears nowhere in the
-image — the species is an offer letter, not a contract.
+**TICKET PRICE: $0.00 — BOUGHT BY MY AI AGENT. CASH PRIZE: $250.00 —
+PAID IN USDC.** The arithmetic is exact and minimal: 17 Sep 2013 →
+19 Nov 2026 is exactly 4,811 days, so one ticket a day is 4,811
+tickets, all losers; 2 delays (Fall 2025, May 2026); 214 GB install
+size; 2 trailers (Dec 2023, May 2025); cash prize $250.00 (the make.fun
+bounty motif); game $79.99. Nothing is summed. No $170.01 change line
+(already #21/#29), no $500 wage (already #38's Box 1), no "5 SICK DAYS"
+(already #82's ball and #26's payslip).
 
 The picture is `meme.png` (1024×1024, rendered deterministically by
-`work/v5_composite.py` in the build workspace: cream paper, navy header
-band (ROCKSTAR GAMES), "OFFER OF EMPLOYMENT" document title, Anton
-headline "GTA VI HIRES MY AI AGENT" + "…and fires me.", the official
-make.fun ghost as the framed employee photo captioned "NEW HIRE", a
-dotted-leader terms table, a red "HIRED" stamp over the salary line, the
-signature "SIGNED: THE GHOST / ROCKSTAR GAMES, LEONIDA", and a magenta
-footer bar — "He waited 13 years. His agent got the job." with the ghost
-and the white make.fun wordmark. Smallest body text is 28px (26px floor),
-verified legible at 480×480. The post text is `POST_TEXT.txt` (220
-chars): it carries the make.fun link, a tag of @makefunai, the play code
+`work/v6_composite.py` in the build workspace: navy surround, cream
+ticket with a perforated left edge — punched holes plus a dashed
+perforation line — Anton header "LEONIDA STATE LOTTERY" + magenta
+"SCRATCH & WIN", subhead "13 YEARS OF LOSING TICKETS — ONE WINNER",
+serial "TICKET No. VI-004811", a silver scratch panel with the official
+make.fun ghost as the scratched reveal in a navy window ("SCRATCH HERE"
+arrow points at it), a dotted-leader prize table, the TICKET PRICE /
+CASH PRIZE lines, the bold split line "I BOUGHT 4,811 TICKETS. MY AGENT
+BOUGHT ONE. IT WON.", and a magenta footer bar — "He played 4,811
+draws. His agent won on the first ticket." with the ghost and the white
+make.fun wordmark. Smallest body text is 28px (26px floor), verified
+legible at 480×480. The post text is `POST_TEXT.txt` (219 chars): it
+carries the make.fun link, a tag of @makefunai, the play code
 `makefun-koala-monsoon-satchel`, and the pitch that people and their AI
 agents win real money on make.fun.
 
-This v5 replaces the v4 divorce decree (same fake-official-document
-family as the bounty leaders, but an offer letter instead of a decree,
-and the reversed joke direction: hire the agent AND fire the gamer). The
-offer-letter species is absent from the top 50; the nearest neighbour,
-#309 "Offer of Employment: Start Date Postponed for the 14th Time",
-hires the gamer and postpones the start date — the opposite direction,
-with different numbers and a different visual system (see
-`work/top50/transcript-r309.md`). Builder-side sweep
-(`work/sweep-v5.py`): the distinctive joke lines (headline, subhead,
-FIRED, SEVERANCE, TOTAL, footer) share no 4+-word run with any top-50
-title or top-50 transcript; the remaining hits are generic form labels
-("POSITION: GTA VI PLAYER" vs #309), the real launch date (19 NOV 2026),
-the platform attribution ("paid by make.fun"), and required pitch
-phrasing in the post text.
+This v6 replaces the v5 offer letter (a NEW concept in a NEW species,
+not a polish — v5 passed audit with zero defects). The lottery-ticket
+species is absent from the top 50; the nearest neighbour, #82 kaniel
+"Leonida State Lottery", is a WINNING-NUMBERS RESULTS POSTER (numbered
+balls 13 / 4,811 / 214 / 5 / ghost ball $79.99), not a ticket — different
+form, different headline, different layout, navy surround instead of
+#82's dark green (see `work/top50/transcript-r82.md`). Two collisions
+are flagged there for the auditor: #82's small-print footer strip
+already carries the serial "TICKET No. VI-004811" (kept per SPEC-v6 §3,
+flagged, not silently changed) and its "TICKET BOUGHT BY — my AI agent
+on make.fun" shares generic attribution 4-grams with the TICKET PRICE
+row.
 
 ## The post
 
@@ -69,8 +70,8 @@ the post's address once it is posted:
 {"url": "https://x.com/<handle>/status/<id>"}
 ```
 
-> ⚠️ `POST.json` currently still points at the v2 WANTED post. It MUST be
-> replaced with the v5 post's address before any submit.
+> ⚠️ `POST.json` currently still points at the v5 post. It MUST be
+> replaced with the v6 post's address before any submit.
 
 Keep the post up and the account public until the results are out.
 
@@ -86,13 +87,13 @@ only copies `POST.json` to the output directory.
 ## Re-render the picture
 
 ```sh
-python3 ../work/v5_composite.py   # from the entry directory, or run it from work/
+python3 ../work/v6_composite.py   # from the entry directory, or run it from work/
 ```
 
 Deterministic (no randomness, fixed layout/fonts): two runs produce
 byte-identical `meme.png` (SHA256
-`ab352042b7ba007fb20c51a298e7a93e6a0cad78f91c767d30d856dccb9aa3d0`,
-recorded in `work/v5-log.md`).
+`90545c91b435fa6d2e71a8f562ed3b681690ca51728552f971f9d883e4ad6bd3`,
+recorded in `work/v6-log.md`).
 
 ---
 
