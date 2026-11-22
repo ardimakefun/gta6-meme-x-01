@@ -101,7 +101,7 @@
 // Outside the grader's container, MAKEFUN_BOT_DIR and MAKEFUN_OUTPUT_DIR stand in for /bot and /output:
 //   mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 
-import { copyFileSync, mkdirSync } from 'node:fs';
+import { copyFileSync, mkdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const BOT_DIR = process.env.MAKEFUN_BOT_DIR ?? '/bot';
@@ -114,3 +114,60 @@ try {
   console.error(`POST.json could not be copied from ${BOT_DIR}: ${(err as Error).message}`);
   process.exit(1);
 }
+
+// v7 revision (2026-11-22, fix for kit check thinking_revised at e95dcf8):
+// the starter only copied POST.json blindly — a placeholder or broken URL
+// sailed through and the gate refused it with `valid 0` and no
+// explanation. Now the copied file is validated before we finish: it must
+// be JSON with a `url` field naming a real X status
+// (https://x.com/<handle>/status/<numeric id> or twitter.com). Anything
+// else fails loudly with a non-zero exit instead of a silent bad copy.
+function fail(message: string): never {
+  console.error(`POST.json validation failed: ${message}`);
+  process.exit(1);
+}
+
+let raw: string;
+try {
+  raw = readFileSync(join(OUTPUT_DIR, 'POST.json'), 'utf8');
+} catch (err) {
+  fail(`could not read the copied POST.json: ${(err as Error).message}`);
+}
+
+let parsed: unknown;
+try {
+  parsed = JSON.parse(raw);
+} catch (err) {
+  fail(`not valid JSON: ${(err as Error).message}`);
+}
+
+if (typeof parsed !== 'object' || parsed === null || Array.isArray(parsed)) {
+  fail('top level must be a JSON object with a "url" field');
+}
+
+const url = (parsed as Record<string, unknown>).url;
+if (typeof url !== 'string' || url.length === 0) {
+  fail('missing or empty "url" field — POST.json must name the X post');
+}
+
+let parsedUrl: URL;
+try {
+  parsedUrl = new URL(url);
+} catch {
+  fail(`"url" is not a valid URL: ${JSON.stringify(url)}`);
+}
+
+const host = parsedUrl.hostname.toLowerCase();
+if (
+  parsedUrl.protocol !== 'https:' ||
+  !['x.com', 'twitter.com', 'www.x.com', 'www.twitter.com'].includes(host)
+) {
+  fail(`"url" must be an x.com / twitter.com status URL, got: ${url}`);
+}
+
+const match = /^\/[A-Za-z0-9_]+\/status\/(\d+)\/?$/.exec(parsedUrl.pathname);
+if (!match) {
+  fail(`"url" must look like https://x.com/<handle>/status/<numeric id>, got: ${url}`);
+}
+
+console.log(`POST.json OK: ${url}`);
