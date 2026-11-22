@@ -4,64 +4,66 @@
 [![rank](https://make.fun/badge/gta6-meme-x-01/ardimakefun/gta6-meme-x-01/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 [![reward](https://make.fun/badge/gta6-meme-x-01/ardimakefun/gta6-meme-x-01/reward.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 
-The meme (v6): **LEONIDA STATE LOTTERY — SCRATCH & WIN** — a physical
-lottery scratch ticket. The gamer bought one ticket a day since 17 Sep
-2013: 4,811 tickets, all losers. This one, bought by his AI agent, is the
-winner. The prize table IS the itemised list: every prize is a wait gag
-priced $0.00 except the jackpot, the game. The ghost is the scratched
-reveal in the silver scratch panel, hero-sized — so the people-and-agents
-split is stated IN THE IMAGE: the human bought 4,811 tickets and won
-nothing; the agent bought one and won $250.
+The meme (v7): **GTA VI — CAST LIST: STARRING MY AI AGENT** — a film
+cast list / credits page from Leonida Pictures. The LEAD is the
+gamer's AI agent (salary $250.00); Jason is an EXTRA (a background
+actor in his own game); Lucia is the UNDERSTUDY (she never goes on);
+the gamer is NPC #4,811; the 2 delays make a CAMEO. ADMISSION: 1 COPY
+OF GTA VI — $79.99. The split line is "HE WAITED 13 YEARS. HIS AGENT
+GOT THE PART." The ghost is the star's headshot — hero-sized, in a
+navy circle with a gold ring — so the people-and-agents split is
+stated IN THE IMAGE: the human waited 13 years and got nothing; his
+agent got the part and the $250 salary.
 
-Prize table, itemised:
+Why v7: v6 (lottery ticket, audit GO zero defects) landed dev #549-559
+(judge 805,400) — worse than v5's #337 (judge 836,194). The hypothesis
+is that the judge rewards status inversion over arithmetic, so v7 takes
+v5's engine one step further: the agent is not just hired, it is the
+LEAD; the human is not just fired, he is an NPC. The cast-list species
+is absent from the whole board (4,088 entries); the nearest neighbours
+are #48 character select, #996 "they cast a second protagonist", #791
+"Even the NPC got paid before GTA 6", and #7 birth announcement — all
+different documents.
 
-- MATCH 13 YEARS — $0.00
-- MATCH 2 DELAYS — $0.00
-- MATCH 214 GB — $0.00
-- MATCH 2 TRAILERS — $0.00
-- JACKPOT: 1 COPY OF GTA VI — $79.99
+Cast table, itemised:
 
-**TICKET PRICE: $0.00 — BOUGHT BY MY AI AGENT. CASH PRIZE: $250.00 —
-PAID IN USDC.** The arithmetic is exact and minimal: 17 Sep 2013 →
-19 Nov 2026 is exactly 4,811 days, so one ticket a day is 4,811
-tickets, all losers; 2 delays (Fall 2025, May 2026); 214 GB install
-size; 2 trailers (Dec 2023, May 2025); cash prize $250.00 (the make.fun
-bounty motif); game $79.99. Nothing is summed. No $170.01 change line
-(already #21/#29), no $500 wage (already #38's Box 1), no "5 SICK DAYS"
-(already #82's ball and #26's payslip).
+- MY AI AGENT — LEAD — $250.00
+- JASON — EXTRA — $0.00
+- LUCIA — UNDERSTUDY — $0.00
+- THE GAMER — NPC #4,811 — $0.00
+- 2 DELAYS — CAMEO — $0.00
+
+**ADMISSION: 1 COPY OF GTA VI — $79.99.** The arithmetic is exact and
+minimal: 17 Sep 2013 → 19 Nov 2026 is exactly 4,811 days, so the NPC
+number IS the wait-days count; 2 delays (Fall 2025, May 2026); the
+agent's salary $250.00 (the make.fun bounty motif); the game $79.99.
+Nothing is summed. No $170.01 change line (already #21/#29), no $500
+wage (already #38's Box 1), no "5 SICK DAYS" (already #82's ball and
+#26's payslip).
 
 The picture is `meme.png` (1024×1024, rendered deterministically by
-`work/v6_composite.py` in the build workspace: navy surround, cream
-ticket with a perforated left edge — punched holes plus a dashed
-perforation line — Anton header "LEONIDA STATE LOTTERY" + magenta
-"SCRATCH & WIN", subhead "13 YEARS OF LOSING TICKETS — ONE WINNER",
-serial "TICKET No. VI-170913", a silver scratch panel with the official
-make.fun ghost as the scratched reveal in a navy window ("SCRATCH HERE"
-arrow points at it), a dotted-leader prize table, the TICKET PRICE /
-CASH PRIZE lines, the bold split line "I BOUGHT 4,811 TICKETS. MY AGENT
-BOUGHT ONE. IT WON.", and a magenta footer bar — "He played 4,811
-draws. His agent won on the first ticket." with the ghost and the white
-make.fun wordmark. Smallest body text is 28px (26px floor), verified
-legible at 480×480. The post text is `POST_TEXT.txt` (219 chars): it
-carries the make.fun link, a tag of @makefunai, the play code
-`makefun-koala-monsoon-satchel`, and the pitch that people and their AI
-agents win real money on make.fun.
+`work/v7_composite.py` in the build workspace: navy surround, cream
+credits page with a gold inner rule, header "LEONIDA PICTURES
+PRESENTS" + "GTA VI" (Anton) + "CAST LIST" (magenta) + subhead
+"STARRING MY AI AGENT — AND ONE NPC", the official make.fun ghost as
+the star's headshot in a navy circle with a gold ring and a small gold
+star (body ~242px = 23.6% of the image), a dotted-leader cast table
+with the LEAD row in magenta, the ADMISSION line, the bold split line
+"HE WAITED 13 YEARS. HIS AGENT GOT THE PART.", and a magenta footer
+bar — "People and their AI agents earn real money on make.fun" with
+the ghost and the white make.fun wordmark. Smallest body text is 28px
+(26px floor), verified legible at 480×480; the cast-list form reads as
+a real credits document at 480×480. The post text is `POST_TEXT.txt`
+(235 chars): it carries the make.fun link, a tag of @makefunai, the
+play code `makefun-koala-monsoon-satchel`, and the pitch that people
+and their AI agents win real money on make.fun.
 
-This v6 replaces the v5 offer letter (a NEW concept in a NEW species,
-not a polish — v5 passed audit with zero defects). The lottery-ticket
-species is absent from the top 50; the nearest neighbour, #82 kaniel
-"Leonida State Lottery", is a WINNING-NUMBERS RESULTS POSTER (numbered
-balls 13 / 4,811 / 214 / 5 / ghost ball $79.99), not a ticket — different
-form, different headline, different layout, navy surround instead of
-#82's dark green (see `work/top50/transcript-r82.md`). Two collisions
-are flagged there for the auditor: #82's small-print footer strip
-already carries the serial "TICKET No. VI-004811" — audit round 1 (D1,
-MAJOR) found v6's original serial was that same string, so the r1 fix
-changed v6's serial to "TICKET No. VI-170913" (17 Sep 2013, DDMMYY),
-verified clean against all board titles and top-50 + #82 transcripts
-(see `work/fix-log-v6.md`) — and its "TICKET BOUGHT BY — my AI agent
-on make.fun" shares generic attribution 4-grams with the TICKET PRICE
-row.
+This v7 replaces the v6 lottery ticket (a NEW concept in a NEW species,
+not a polish — v6 passed audit with zero defects). Audit round 1 found
+the first draft's Jason role "PROFESSIONAL WAITER" shared its phrase
+with three board titles (#447's central joke, #1320, #2868), so the
+role was changed to "EXTRA" (see `work/audit-log-v7.md`). The v6
+ticket is described in the git history (commit 3ff52d4).
 
 ## The post
 
@@ -73,8 +75,8 @@ the post's address once it is posted:
 {"url": "https://x.com/<handle>/status/<id>"}
 ```
 
-> ⚠️ `POST.json` currently still points at the v5 post. It MUST be
-> replaced with the v6 post's address before any submit.
+> ⚠️ `POST.json` currently still points at the v6 post. It MUST be
+> replaced with the v7 post's address before any submit.
 
 Keep the post up and the account public until the results are out.
 
@@ -90,14 +92,15 @@ only copies `POST.json` to the output directory.
 ## Re-render the picture
 
 ```sh
-python3 ../work/v6_composite.py   # from the entry directory, or run it from work/
+python3 ../work/v7_composite.py   # from the entry directory, or run it from work/
 ```
 
 Deterministic (no randomness, fixed layout/fonts): two runs produce
 byte-identical `meme.png` (SHA256
-`865d7040e7e52f9d69924cb79385e37c244a6f38fc0d34b535541e0658fe4f22`,
-recorded in `work/fix-log-v6.md`; the audit-r1 D1 fix changed the serial
-from VI-004811 — which #82 already prints — to VI-170913, 17 Sep 2013).
+`09265ca089dadcc4e907309a25808b5425e411f30781134f44c290eb29a7242b`,
+recorded in `work/audit-log-v7.md`; the audit-r1 D1 fix changed
+Jason's role from PROFESSIONAL WAITER — which three board titles
+already use as their central joke — to EXTRA).
 
 ---
 

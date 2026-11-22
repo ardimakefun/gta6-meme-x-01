@@ -3,6 +3,36 @@
 // the output directory, where the gate reads it. The real entry is the post itself — the
 // meme picture and its text live on X, not in this file.
 //
+// v7 update (2026-11-22, builder session): the entry is now the "GTA VI
+// — CAST LIST: STARRING MY AI AGENT" meme — a film cast list / credits
+// page from Leonida Pictures. The LEAD is the gamer's AI agent (salary
+// $250.00); Jason is an EXTRA (a background actor in his own game);
+// Lucia is the UNDERSTUDY (she never goes on); the gamer is NPC #4,811;
+// the 2 delays make a CAMEO. ADMISSION: 1 COPY OF GTA VI — $79.99.
+// Split line: "HE WAITED 13 YEARS. HIS AGENT GOT THE PART." The ghost
+// is the star's headshot in a navy circle with a gold ring (hero-sized,
+// body ~242px = 23.6% of the image). The cast-list form is a NEW
+// species: no cast list / credits page exists on the whole board (4,088
+// entries, checked live 22 Nov ~18:40 WIB; nearest neighbours are #48
+// character select, #996 "they cast a second protagonist", #791 "Even
+// the NPC got paid before GTA 6", #7 birth announcement — all different
+// documents). Why v7: v6 (lottery ticket, audit GO zero defects) landed
+// dev #549-559, judge 805400 — worse than v5's #337 (judge 836194); the
+// hypothesis is that the judge rewards status inversion over
+// arithmetic, so v7 takes v5's engine one step further (agent = LEAD,
+// human = NPC). Audit round 1 (D1, MAJOR) found the first draft's
+// Jason role "PROFESSIONAL WAITER" shared its phrase with three board
+// titles (#447's central joke, #1320, #2868), so the role was changed
+// to "EXTRA" — verified clean against all 4,088 board titles and the
+// top-50 transcripts (see work/audit-log-v7.md). The picture is
+// meme.png (1024x1024, rendered deterministically by
+// work/v7_composite.py, 61 words, SHA256
+// 09265ca089dadcc4e907309a25808b5425e411f30781134f44c290eb29a7242b);
+// the post text is POST_TEXT.txt (235 chars). NOTE: POST.json still
+// points at the v6 post — it MUST be replaced with the v7 post's
+// address before any submit. This file's behaviour is unchanged: it
+// only copies POST.json.
+//
 // v6 update (2026-11-21, builder session): the entry is now the "LEONIDA
 // STATE LOTTERY — SCRATCH & WIN" meme — a physical lottery scratch ticket.
 // The gamer bought one ticket a day since 17 Sep 2013: 4,811 tickets, all
